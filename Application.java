@@ -78,6 +78,12 @@ static Scanner sc=new Scanner(System.in);
         int a;
         
        while(true) { 
+    	   System.out.println("1:Enter name of city:");
+    	   System.out.println("2:Venues available:");
+    	   System.out.println("3:Cancel Booking");
+    	   System.out.println("4.Save to file");
+    	   System.out.println("5.Load From File");
+    	   System.out.println("6.Thank you message");
         System.out.println("Enter your choice");
         a=sc.nextInt();
         
@@ -160,9 +166,6 @@ static Scanner sc=new Scanner(System.in);
         
         
        }
-        
-        //bm.cancelBooking(101); 
-       //bm.loadFromFile();    
-    
+
 	}
 }
